@@ -5,6 +5,7 @@
     "selector-class-pattern": null,
     "color-hex-length": "long",
     "shorthand-property-no-redundant-values": null,
-    "no-descending-specificity": null
+    "no-descending-specificity": null,
+    "keyframes-name-pattern": null
   }
 }
