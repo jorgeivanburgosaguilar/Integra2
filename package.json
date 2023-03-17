@@ -2,6 +2,7 @@
   "name": "integra2-decodificado",
   "version": "1.0.0",
   "description": "Version descompresa del Sistema Integra2 del CEAIP Sinaloa solo para fines educativos",
+  "main": "src/intregra2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
