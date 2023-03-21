@@ -769,10 +769,7 @@ $(document).ready(function () {
   }
 
   if (localStorage["locationc"] === "locationc1") {
-    $("#imgpos").css(
-      "background-image",
-      "url(https://www.infomexsinaloa.org/accesibilidadweb/icons/positiondownleft.svg)"
-    );
+    $("#imgpos").addClass("imgpos--positiondownleft");
   }
 
   SetClass();
@@ -894,10 +891,7 @@ $(document).ready(function () {
     $("#integra2_myBtn").removeClass(localStorage["fab_location"]);
     $("#lemodaleposition").removeClass(localStorage["fab_location"]);
     $("#imgpos").removeClass(localStorage["locationc"]);
-    $("#imgpos").css(
-      "background-image",
-      "url(https://www.infomexsinaloa.org/accesibilidadweb/icons/positiondownright.svg)"
-    );
+    $("#imgpos").removeClass("imgpos--positiondownleft");
 
     $("html").removeClass(localStorage["html_contrastview"]);
     $("html").removeClass(localStorage["html_apagatransition"]);
@@ -952,10 +946,7 @@ $(document).ready(function () {
     $("#integra2_myBtn").removeClass(localStorage["fab_location"]);
     $("#lemodaleposition").removeClass(localStorage["fab_location"]);
     $("#imgpos").removeClass(localStorage["locationc"]);
-    $("#imgpos").css(
-      "background-image",
-      "url(https://www.infomexsinaloa.org/accesibilidadweb/icons/positiondownright.svg)"
-    );
+    $("#imgpos").removeClass("imgpos--positiondownleft");
 
     $("html").removeClass(localStorage["html_contrastview"]);
     $("html").removeClass(localStorage["html_apagatransition"]);
@@ -1772,10 +1763,7 @@ $(document).ready(function () {
 
     if (class_location[class_location.length - 1] === "reset") {
       $("#imgpos").removeClass("locationc1 locationc2 reset");
-      $("#imgpos").css(
-        "background-image",
-        "url(https://www.infomexsinaloa.org/accesibilidadweb/icons/positiondownright.svg)"
-      );
+      $("#imgpos").removeClass("imgpos--positiondownleft");
       $("#integra2_myBtn").removeClass("integra2_location1  reset");
       $("#lemodaleposition").removeClass("integra2_location1  reset");
       $("#location_active").removeClass("activatedcell");
@@ -1789,7 +1777,7 @@ $(document).ready(function () {
         .removeClass(class_locationnn.join(" "))
         .addClass(class_locationnn[class_locationnn.length - 1]);
       if ($("#imgpos").hasClass("locationc1")) {
-        $("#imgpos").css("background-image", "");
+        $("#imgpos").addClass("imgpos--positiondownleft");
       }
       $("#integra2_myBtn")
         .removeClass(class_location.join(" "))
@@ -1823,10 +1811,7 @@ $(document).ready(function () {
 
       if (class_location[class_location.length - 1] === "reset") {
         $("#imgpos").removeClass("locationc1 locationc2 reset");
-        $("#imgpos").css(
-          "background-image",
-          "url(https://www.infomexsinaloa.org/accesibilidadweb/icons/positiondownright.svg)"
-        );
+        $("#imgpos").removeClass("imgpos--positiondownleft");
         $("#integra2_myBtn").removeClass("integra2_location1  reset");
         $("#lemodaleposition").removeClass("integra2_location1  reset");
         $("#location_active").removeClass("activatedcell");
@@ -1840,7 +1825,7 @@ $(document).ready(function () {
           .removeClass(class_locationnn.join(" "))
           .addClass(class_locationnn[class_locationnn.length - 1]);
         if ($("#imgpos").hasClass("locationc1")) {
-          $("#imgpos").css("background-image", "");
+          $("#imgpos").addClass("imgpos--positiondownleft");
         }
         $("#integra2_myBtn")
           .removeClass(class_location.join(" "))

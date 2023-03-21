@@ -13,7 +13,7 @@
   display: block;
   box-sizing: border-box;
   background: url("img/positiondownleft.svg") no-repeat;
-  width: 400px;
+  width: 40px;
   height: 40px;
 }
 
@@ -710,6 +710,10 @@
   background-image: url("img/positiondownright.svg");
   width: 40px;
   height: 40px;
+}
+
+#imgpos.imgpos--positiondownleft {
+  background-image: url("img/positiondownleft.svg");
 }
 
 #resetb__img {
