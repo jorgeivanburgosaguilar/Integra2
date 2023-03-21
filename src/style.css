@@ -721,3 +721,9 @@
   width: 20px;
   height: 20px;
 }
+
+.integra2_modale-footer div,
+.integra2_modale2-footer div {
+  color: #ffffff;
+  text-align: center;
+}
