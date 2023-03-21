@@ -1729,6 +1729,8 @@ $(document).ready(function () {
       localStorage["readline_active_checked"] = "iconchecked";
       integra2_Uso("linea-de-lectura");
     }
+
+    hiderule();
   });
 
   // ========================================================= 10 INICIO LINEA DE LECTURA TECLA ENTER=========================================================
@@ -2056,3 +2058,11 @@ function hiderule2() {
   x.style.display = "none";
 }
 // Funciones para la guia de lectura (la primera la pinta, la segunda la activa o desactiva)
+
+$("#optioon__div").click(function () {
+  integra2_make_table();
+});
+
+$("div.integra2--abrirmicrositio").click(function () {
+  window.open("https://integra2.ceaipsinaloa.org.mx/", "_blank");
+});
